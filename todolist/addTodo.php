@@ -23,6 +23,6 @@
         <a href="index.php" class="btn btn-danger float-right w-auto m-1"> Volver</a>
     </form>
 </div>
-    <script src="./js/bootstrap.min.js"><script/>
+    <script src="./js/bootstrap.min.js"></script>
 </body>
 </html>
