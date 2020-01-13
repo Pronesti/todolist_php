@@ -12,7 +12,7 @@
 <div class="card mx-auto" style="padding: 1rem;margin: 1rem;width:50vw;">
   <div class="card-body">
     <h5 class="card-title text-center">{{title}}</h5>    
-<form action='login.php' method='POST'>
+<form action='{{url}}.php' method='POST'>
   <div class="form-group">
     <label for="exampleInput">Username</label>
     <input type="text" class="form-control" id="exampleInput" name='username'>

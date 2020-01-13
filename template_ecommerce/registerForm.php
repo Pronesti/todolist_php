@@ -8,6 +8,7 @@ $te->addVariable("navbar", $nav->render());
 $te->addVariable("contenido", $lista);
 $user = new TemplateEngine("user.template");
 $user->addVariable("title", "Register");
+$user->addVariable("url", "register");
 $te->addVariable("contenido",$user->render());
 echo $te->render();
 ?>

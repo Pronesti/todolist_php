@@ -8,6 +8,7 @@ $te->addVariable("navbar", $nav->render());
 $te->addVariable("contenido", $lista);
 $user = new TemplateEngine("user.template");
 $user->addVariable("title", "Login");
+$user->addVariable("url", "login");
 $user->addVariable("extra", "<a href='registerForm.php' class='btn btn-warning float-right w-25'>Register</a>");
 $te->addVariable("contenido",$user->render());
 echo $te->render();
